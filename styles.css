@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office&display=swap');
+
+*{
+    margin: 0%;
+    
+}
+
+.logo{
+    margin-left: 0.6rem;
+    margin: auto 0;
+}
+
+.header{
+    top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid grey;
+    overflow: hidden;
+}
+.freshWork{
+    width: 13rem;
+    margin-left: 1rem
+
+}
+.navSide{
+    display: flex;
+    text-align: center;
+    width: 9rem;
+    margin-right: 0.3rem;
+    margin: 0.5rem;
+}
+.tryFree button{
+    border-style: hidden;
+       padding: 1rem;
+       background-color: #36A900;
+       color:#FFFFFF;
+       border-radius: 13px;
+       cursor: pointer;
+       font-weight: 900;
+}
+
+.nav{
+    position: absolute;
+    right: 0;
+    top: 19px;
+    right: 9px;
+    width: 25px;
+
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    margin-left: 17px;
+   visibility: hidden;
+  }
+  
+  .navbar-line {
+    width: 20px;
+    height: 2px;
+    background: #000;
+    margin-bottom: 4px;
+  }
+
+/*All styles related to main section of page */
+.main{
+    max-width: fit-content;
+    height: 100vh;
+    background-size:contain;
+    background-repeat: no-repeat;
+   
+}
+.images img{
+width: 80vw;
+height: 100vh;
+}
+.images{
+position: absolute;
+right: 0;
+left: 0;
+width: 80vw;
+height: 100vh;
+}
+.images img{
+width:100vw;
+height: 100vh;
+}
+.card{
+position: absolute;
+background-color: #fff9e8;
+width: 60%;
+height: 42rem;
+left: 20rem;
+border-top-left-radius: 30%;
+border-bottom-right-radius: 30%;
+display: grid;
+justify-content: center;
+grid-template-rows: 2fr 1fr 1fr 1fr;
+border-bottom: 0.5px solid grey;
+box-shadow:0 10px 10px #eaf6fe;
+}
+#size1,#size4 button{ 
+font-family: Arial, Helvetica, sans-serif; 
+font-size: larger;
+font-size: 2.65rem;
+}
+#size1{
+    margin-top: auto;
+}
+.size{
+width: 29rem;
+text-align: center;
+margin-top: auto;
+}
+#size4 {
+margin-bottom: auto;
+}
+#size4 button {
+ background-color: #36A900;
+ border-style: hidden;
+  padding: 0.6rem;
+   color:#FFFFFF;
+   border-radius: 20px;
+   cursor: pointer;
+   font-weight: 100;
+} 
+
+/****Below Image**/
+
+.belowImage{
+    position: absolute;
+    width: 80vw;
+    height: 100vh;
+    background-color: #eaf6fe;
+    padding:10%;
+    z-index: -1;
+}
+.linktopages a{
+    text-decoration: none;
+    font-family:sans-serif;
+    font-weight:normal
+
+}
+.linktopages{
+    font-size:25px;
+    justify-content: center;
+    margin-left: 2%;
+    
+}
+.manyButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Ysabeau Office', sans-serif;;
+    text-align: center;
+}
+.linktopages :hover{
+    padding: 0.6rem;
+    background-color:#0075dd; 
+    border-radius: 0.4rem;
+    color: #FFFFFF;
+}
+.heading{
+  margin-bottom: 41px;
+  font-size: xx-large;
+  text-align: center;
+}
+
+/*******Professional Invoiching and various other info in section tag********/
+.left{
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+}
+
+.scrollbar{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    margin:6rem auto;
+}
+.insideLeft{
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.invoicing{
+    width: fit-content;
+    font-size: x-large;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+.pad{
+    margin-bottom: 1.2rem;
+}
+
+.right{
+    background-image: url("https://www.freshbooks.com/wp-content/uploads/2023/04/Carousel-Invoicing.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain
+}
+.center{
+    text-align: center;
+    font-size: xx-large;
+}
+.watch{
+    font-family:Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-transform: capitalize;
+}
+.material-symbols-outlined{
+    padding-top: 2px;
+}
+
+
+
